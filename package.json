@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "sass ./src/bs-custom/main.scss ./src/bs-custom/main.css --watch"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}

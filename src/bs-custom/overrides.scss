@@ -1,0 +1,37 @@
+$primary: hsl(179, 62%, 43%);
+$light-cyan: hsl(179, 47%, 52%);
+$secondary: hsl(71, 73%, 54%);
+$light-gray: hsl(204, 43%, 93%);
+$grayish-blue: hsl(218, 22%, 67%);
+
+$theme-colors: (
+    "cyan": $primary,
+    "light-cyan": $light-cyan,
+    "bright-yellow": $secondary,
+    "light-gray": $light-gray,
+    "grayish-blue": $grayish-blue
+);
+
+@font-face {
+    font-family: 'Karla';
+    src: url('../font/Karla-Regular.woff') format('woff'),
+        url('../font/Karla-Regular.ttf') format('truetype');
+}
+
+$font-family-base: 'Karla', sans-serif;
+
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$font-size-base: 1rem;
+
+.font-size-14 {
+    font-size: 0.9rem;
+}
+
+.font-size-18 {
+    font-size: 1.15rem;
+}
+
+.letter-spacing-custom {
+    letter-spacing: 0.04em;
+}
